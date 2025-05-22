@@ -1,3 +1,4 @@
+
 // backend/routes/topCoinsRoutes.js
 import express from 'express';
 import { getTopCoins } from '../controllers/topCoinsController.js';
