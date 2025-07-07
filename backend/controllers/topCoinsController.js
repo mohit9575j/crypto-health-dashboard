@@ -4,7 +4,7 @@ import axios from 'axios';
 
 let cachedTopCoins = null;
 let lastFetchTime = 0;
-const CACHE_DURATION = 10 * 60 * 1000; // 10 minutes
+const CACHE_DURATION = 10 * 60 * 1000; 
 
 export const getTopCoins = async (req, res) => {
   try {
