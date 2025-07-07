@@ -5,6 +5,6 @@ import { getCoinChart } from '../controllers/coinChartController.js';
 
 const router = express.Router();
 
-router.get('/coin-chart', getCoinChart); // e.g., /api/coin-chart?coinId=bitcoin&days=30
+router.get('/coin-chart', getCoinChart);  
 
 export default router;
