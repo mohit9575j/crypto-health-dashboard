@@ -3,7 +3,7 @@ import axios from 'axios';
 
 let cachedNews = null;
 let lastFetchTime = 0;
-const CACHE_DURATION = 10 * 60 * 1000; // 10 minutes in milliseconds
+const CACHE_DURATION = 10 * 60 * 1000;  
 
 const NEWS_API_KEY = '6cefd679150142c7b3c30edcf1f61783';
 
