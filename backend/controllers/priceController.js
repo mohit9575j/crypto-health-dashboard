@@ -1,6 +1,3 @@
-
-
-
 // backend/controllers/priceController.js
 import axios from 'axios';
 
