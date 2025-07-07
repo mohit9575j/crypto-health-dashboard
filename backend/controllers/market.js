@@ -7,7 +7,7 @@ const CACHE_DURATION = 10 * 60 * 1000; // 10 minutes
 
  const getMarketPrices = async (req, res) => {
   try {
-    const coins = req.query.coins; // frontend se: bitcoin,ethereum,etc.
+    const coins = req.query.coins; 
 
     const now = Date.now();
 
